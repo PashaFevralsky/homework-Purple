@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'OpenSans', sans-serif
+}
+
+.body {
+	background-color: #f39494;
+}
+
+.form__title {
+	font-size: 36px;
+	font-weight: bold;
+	color: #333;
+
+}
+
+.form__text {
+
+	font-size: 18px;
+	color: #666;
+}
+
+.text__link {
+
+	font-size: 18px;
+	color: #089fe0;
+
+}
+
+.company__form {
+	width: 394px;
+	height: 44px;
+	border-radius: 5px;
+	border: solid 1px #f5f5f5;
+	background-color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	color: #333;
+	padding-left: 11px;
+	padding-right: 11px;
+}
+
+.form__input {
+	width: 197px;
+	height: 44px;
+	border-radius: 5px;
+	background-color: #f5f5f5;
+	padding-left: 11px;
+	padding-right: 11px;
+}
+
+.email__form {
+	width: 394px;
+	height: 44px;
+	border-radius: 5px;
+	background-color: #f5f5f5;
+}
+
+.form__button {
+	width: 394px;
+	height: 44px;
+	padding-left: 102px;
+	padding-right: 102px;
+	border-radius: 5px;
+	background-color: #089fe0;
+	font-size: 18px;
+	color: #fff;
+}
+
+.agree__input {
+	width: 15px;
+	height: 16px;
+	border-radius: 5px;
+	border: solid 1px #eee;
+	background-color: #f5f5f5;
+}
+
+.label__text {
+	font-size: 14px;
+	color: #666;
+}
+
+.label__link {
+	font-size: 14px;
+	color: #089fe0;
+}
