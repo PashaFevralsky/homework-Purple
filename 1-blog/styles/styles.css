@@ -1,0 +1,81 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+.body {
+	background-color: #374151;
+}
+
+.logo__link {
+	font-size: 18px;
+	color: #fff;
+}
+
+.list__link {
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.search__input {
+	width: 224px;
+	height: 40px;
+	border-radius: 100px;
+	padding-left: 49px;
+	padding-right: 49px;
+	background-color: rgba(31, 41, 55, 0.6);
+}
+
+.search__input::placeholder {
+	font-size: 16px;
+	color: #fff;
+
+}
+
+.info__text {
+	font-size: 14px;
+	color: #fff;
+	opacity: 0.6;
+}
+
+.info__title {
+	font-size: 24px;
+	line-height: 1.58;
+	color: #fff;
+}
+
+.author__name {
+	font-size: 16px;
+	line-height: 1.75;
+	color: #fff;
+}
+
+.author__about {
+	font-size: 14px;
+	line-height: 2;
+	color: #fff;
+	opacity: 0.6;
+}
+
+.top__img {
+	border-radius: 6px;
+}
+
+.top__text {
+	font-size: 20px;
+	line-height: 1.6;
+	color: #fff;
+}
+
+.small__text {
+	font-size: 16px;
+	line-height: 1.88;
+	color: #fff;
+}
+
+.footer__text {
+	font-size: 16px;
+	opacity: 0.6;
+	line-height: 1.75;
+	color: #fff;
+}
