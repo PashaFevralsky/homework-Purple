@@ -1,0 +1,168 @@
+* {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.body {
+	background-color: #374151;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+/* .center {
+	padding-left: calc(50% - 540px);
+	padding-right: calc(50% - 540px);
+	padding-left: 180px;
+	padding-right: 180px;
+} */
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 71px;
+	padding-bottom: 69px;
+
+}
+
+
+.logo__link {
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.navigation__list {
+	display: flex;
+	flex-direction: row;
+	gap: 52px;
+	list-style: none;
+}
+
+
+.list__link {
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.search__input {
+	width: 224px;
+	height: 40px;
+	border-radius: 100px;
+	padding-left: 49px;
+	padding-right: 49px;
+	background-color: rgba(31, 41, 55, 0.6);
+	border: none;
+}
+
+.search__input::placeholder {
+	font-size: 16px;
+	color: #fff;
+	opacity: 0.6;
+
+}
+
+.product {
+	margin-bottom: 30px;
+
+}
+
+.top__product {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.product__info {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.info__text {
+	font-size: 14px;
+	color: #fff;
+	opacity: 0.6;
+	margin-bottom: 14px;
+}
+
+.info__title {
+	font-size: 24px;
+	line-height: 1.58;
+	color: #fff;
+	text-align: center;
+}
+
+.author {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 31px;
+	align-items: center;
+}
+
+.author__info {
+	display: flex;
+	flex-direction: column;
+}
+
+.author__img-container {
+	margin-right: 16px;
+}
+
+.author__name {
+	font-size: 16px;
+	line-height: 1.75;
+	color: #fff;
+}
+
+.author__about {
+	font-size: 14px;
+	line-height: 2;
+	color: #fff;
+	opacity: 0.6;
+}
+
+.top__img-container {
+	margin-bottom: 69px;
+}
+
+.top__img {
+	border-radius: 6px;
+}
+
+.top__text {
+	font-size: 20px;
+	line-height: 1.6;
+	color: #fff;
+	width: 708px;
+	margin-bottom: 77px;
+}
+
+.small__text {
+	font-size: 16px;
+	line-height: 1.88;
+	color: #fff;
+}
+
+.footer {
+	padding-top: 26px;
+	text-align: center;
+}
+
+.footer__text {
+	font-size: 16px;
+	opacity: 0.6;
+	line-height: 1.75;
+	color: #fff;
+	padding-bottom: 77px;
+}
