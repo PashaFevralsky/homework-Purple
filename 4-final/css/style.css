@@ -19,11 +19,17 @@ body {
 	/* width: 1920px; */
 }
 
+.container {
+	max-width: 1394px;
+	width: 100%;
+	margin: 0 auto;
+}
+
 .center {
 	/* padding-left: 264px;
 	padding-right: 263px; */
-	padding-left: calc(50% - 697px);
-	padding-right: calc(50% - 697px);
+	/* padding-left: calc(50% - 697px);
+	padding-right: calc(50% - 697px); */
 }
 
 .hero {
@@ -220,6 +226,7 @@ body {
 .comparison {
 	background-color: #357EFE;
 	padding-bottom: 120px;
+	padding-top: 120px;
 }
 
 .comparison__about {
@@ -229,7 +236,7 @@ body {
 	text-align: center;
 	align-items: center;
 	margin-bottom: 64px;
-	padding-top: 120px;
+
 
 }
 
@@ -415,9 +422,9 @@ body {
 }
 
 .support__right {
-	padding-right: 156px;
-	padding-top: 80px;
-	padding-bottom: 84px;
+	margin-right: 156px;
+	margin-top: 80px;
+	margin-bottom: 84px;
 	display: flex;
 	flex-direction: column;
 	gap: 40px;
@@ -559,6 +566,7 @@ body {
 	font-style: normal;
 	font-weight: 500;
 	line-height: 140%;
+	min-height: 70px;
 }
 
 .card__text-white {
